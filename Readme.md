@@ -5,18 +5,18 @@
     •Thingspeak IoT platform.  
     •Any mobile app compatible to be used with Thingspeak serve
   
-A. NodeMCU Setup and Code Description
+A. NodeMCU Setup and Code Description  
     •Pin D1 is Rx  
     •Pin D2 is Tx  
-  
+
     Change following parameters in code before uploading it to your device:  
-    
+
     •ssid : ssid of the wifi network  
     •password : password of your wifi network  
     •mqttUserName[] : your username  
     •mqttPass[] : thingspeak channel pass key  
     •writeAPIKey[] : thingspeak channel write keyB.  
-  
+
 B. Arduino Mega Setup and Code Description
   
     Pin Configuration  
