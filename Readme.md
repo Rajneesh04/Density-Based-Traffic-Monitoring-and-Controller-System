@@ -21,16 +21,17 @@
 
 **B. Arduino Mega Setup and Code Description**
   
-    Pin Configuration  •Pin D1 is Rx  
-•Pin D2 is Tx  
+    Pin Configuration  
+    •Pin D1 is Rx  
+    •Pin D2 is Tx  
 
-Change following parameters in code before uploading it to your device:  
+    Change following parameters in code before uploading it to your device:  
 
-•ssid : ssid of the wifi network  
-•password : password of your wifi network  
-•mqttUserName[] : your username  
-•mqttPass[] : thingspeak channel pass key  
-•writeAPIKey[] : thingspeak channel write keyB.  
+    •ssid : ssid of the wifi network  
+    •password : password of your wifi network  
+    •mqttUserName[] : your username  
+    •mqttPass[] : thingspeak channel pass key  
+    •writeAPIKey[] : thingspeak channel write keyB.  
 
     •Pin 10 is Rx•Pin 11 is Tx  
     •For serial communication connect Pin 10, 11 of arduino to Pin D2, D1 of NodeMCU respectively.  
